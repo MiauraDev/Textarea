@@ -37,7 +37,7 @@ const Textarea: React.FC<TextareaProps> = ({
       ></textarea>
       {error && (
         <div className={styles.textErrorContainer}>
-          <img src="/src/assets/errorIcon.svg" alt="Error Icon" />
+          <img src="/errorIcon.svg" alt="Error Icon" />
           <p className={errorTextClass}>{error}</p>
         </div>
       )}
